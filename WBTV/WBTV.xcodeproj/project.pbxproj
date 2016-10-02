@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526D16E81D9FAA2100E2C106 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526D16E61D9FAA2100E2C106 /* Home.storyboard */; };
+		526D16EA1D9FAA6300E2C106 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526D16E91D9FAA6300E2C106 /* Live.storyboard */; };
+		526D16ED1D9FAA8300E2C106 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526D16EB1D9FAA8300E2C106 /* Follow.storyboard */; };
+		526D16EF1D9FAA9200E2C106 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526D16EE1D9FAA9200E2C106 /* Profile.storyboard */; };
+		526D16F11D9FAE4200E2C106 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D16F01D9FAE4200E2C106 /* HomeViewController.swift */; };
 		52CB69D01D9F89C600DD87A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB69CF1D9F89C600DD87A2 /* AppDelegate.swift */; };
-		52CB69D21D9F89C600DD87A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB69D11D9F89C600DD87A2 /* ViewController.swift */; };
 		52CB69D51D9F89C600DD87A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CB69D31D9F89C600DD87A2 /* Main.storyboard */; };
 		52CB69D71D9F89C600DD87A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB69D61D9F89C600DD87A2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		526D16E71D9FAA2100E2C106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		526D16E91D9FAA6300E2C106 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../../Live.storyboard; sourceTree = "<group>"; };
+		526D16EC1D9FAA8300E2C106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		526D16EE1D9FAA9200E2C106 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../Profile.storyboard; sourceTree = "<group>"; };
+		526D16F01D9FAE4200E2C106 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		52CB69CC1D9F89C600DD87A2 /* WBTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CB69CF1D9F89C600DD87A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52CB69D11D9F89C600DD87A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52CB69D41D9F89C600DD87A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52CB69D61D9F89C600DD87A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CB69DB1D9F89C600DD87A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +41,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526D16DF1D9FA23100E2C106 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				526D16E01D9FA23100E2C106 /* Follow(关注) */,
+				526D16E11D9FA23100E2C106 /* Home(首页) */,
+				526D16E21D9FA23100E2C106 /* Live(直播) */,
+				526D16E31D9FA23100E2C106 /* Main(主要) */,
+				526D16E41D9FA23100E2C106 /* Profile(我的) */,
+				526D16E51D9FA23100E2C106 /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		526D16E01D9FA23100E2C106 /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				526D16EB1D9FAA8300E2C106 /* Follow.storyboard */,
+			);
+			name = "Follow(关注)";
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		526D16E11D9FA23100E2C106 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				526D16E61D9FAA2100E2C106 /* Home.storyboard */,
+				526D16F01D9FAE4200E2C106 /* HomeViewController.swift */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		526D16E21D9FA23100E2C106 /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				526D16E91D9FAA6300E2C106 /* Live.storyboard */,
+			);
+			name = "Live(直播)";
+			path = Live;
+			sourceTree = "<group>";
+		};
+		526D16E31D9FA23100E2C106 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				52CB69D31D9F89C600DD87A2 /* Main.storyboard */,
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		526D16E41D9FA23100E2C106 /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				526D16EE1D9FAA9200E2C106 /* Profile.storyboard */,
+			);
+			name = "Profile(我的)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		526D16E51D9FA23100E2C106 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tools(工具)";
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		52CB69C31D9F89C500DD87A2 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +127,8 @@
 		52CB69CE1D9F89C600DD87A2 /* WBTV */ = {
 			isa = PBXGroup;
 			children = (
+				526D16DF1D9FA23100E2C106 /* Classes */,
 				52CB69CF1D9F89C600DD87A2 /* AppDelegate.swift */,
-				52CB69D11D9F89C600DD87A2 /* ViewController.swift */,
-				52CB69D31D9F89C600DD87A2 /* Main.storyboard */,
 				52CB69D61D9F89C600DD87A2 /* Assets.xcassets */,
 				52CB69DB1D9F89C600DD87A2 /* Info.plist */,
 			);
@@ -121,7 +195,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526D16EF1D9FAA9200E2C106 /* Profile.storyboard in Resources */,
+				526D16ED1D9FAA8300E2C106 /* Follow.storyboard in Resources */,
+				526D16E81D9FAA2100E2C106 /* Home.storyboard in Resources */,
 				52CB69D71D9F89C600DD87A2 /* Assets.xcassets in Resources */,
+				526D16EA1D9FAA6300E2C106 /* Live.storyboard in Resources */,
 				52CB69D51D9F89C600DD87A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,20 +211,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CB69D21D9F89C600DD87A2 /* ViewController.swift in Sources */,
 				52CB69D01D9F89C600DD87A2 /* AppDelegate.swift in Sources */,
+				526D16F11D9FAE4200E2C106 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		526D16E61D9FAA2100E2C106 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526D16E71D9FAA2100E2C106 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		526D16EB1D9FAA8300E2C106 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526D16EC1D9FAA8300E2C106 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		52CB69D31D9F89C600DD87A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				52CB69D41D9F89C600DD87A2 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,7 +347,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8EZ2X7GSMS;
 				INFOPLIST_FILE = WBTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpoint.WBTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -265,7 +362,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8EZ2X7GSMS;
 				INFOPLIST_FILE = WBTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpoint.WBTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
